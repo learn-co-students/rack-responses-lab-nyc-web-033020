@@ -5,7 +5,7 @@ class Application
         if now.hour <=12
             resp.write "Good Morning"
         else
-            resp.write "Good Morning""Good Afternoon"
+            resp.write "Good Morning"
         end
         resp.finish
     end
